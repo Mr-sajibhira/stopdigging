@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopdigging</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+
+</head>
+<body>
+<!---------------------------------- Golabel CSS Start ----------------------------------------->
+<Style>
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+
+</Style>
+
+<!---------------------------------- Golabel CSS End ----------------------------------------->
+
+
+
+<!---------------------------------- Banner Section Start ----------------------------------------->
+<style>
+
+
+
+     .banner {
+    position: relative;
+    }
+    .banner .bg_image{
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+    .banner .container {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+    .banner .title{
+      font-size: 70px;
+      line-height: 84px;
+      font-weight: 700;
+      text-align: center;
+      color: #ffffff;
+      font-family: "Cabin", sans-serif;
+    }
+
+    @media(max-width:767px){
+      .banner .title{
+       font-size: 34px;
+       line-height: 40px;
+       margin: 0px 15px;
+      }
+
+
+    }
+
+</style>
+
+<section class="banner">
+
+        <img class="bg_image" src="images/banner-bg.jpg" alt="banner-bg">
+    
+    <div class="container">
+        <h2 class="title">READY, STEADY, BUILD!</h2>
+    </div>
+  </div>
+</section>
+
+<!---------------------------------- Banner Section Start ----------------------------------------->
+
+
+<!---------------------------------- About Us Section Start ----------------------------------------->
+<style>
+#aboutus{
+  padding: 80px 0px;
+}
+#aboutus .container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  position: relative;
+
+}
+#aboutus .row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -25px;
+}
+#aboutus .col_6{
+  max-width: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+}
+#aboutus .flex{
+ display:flex;
+ align-items: center;
+}
+#aboutus .content_box{
+  max-width: 70%;
+  width: 100%;
+  margin: 0px 2% 0px 0px;
+}
+#aboutus .icon_box{
+  max-width: 30%;
+  width: 100%;
+}
+#aboutus .title{
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Cabin", sans-serif;
+  margin: 0px 0px 20px 0px;
+}
+#aboutus .title_2{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Cabin", sans-serif;
+  margin: 0px 0px 8px 0px;
+}
+#aboutus .des{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Cabin", sans-serif;
+  margin: 0px 0px 20px 0px;
+}
+#aboutus .single_list{
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+#aboutus .list_icon{
+  padding: 5px;
+  max-width: 40%;
+  width: 100%;
+  height: 50px;
+  object-fit: contain;
+}
+#aboutus .list_title{
+  padding: 5px;
+  max-width: 60%;
+  width: 100%;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Cabin", sans-serif;
+}
+#aboutus .image_list_box{
+  max-width: 30%;
+  width: 100%;
+}
+#aboutus .list_img{
+  padding: 5px 0px;
+}
+#aboutus .image {
+    max-width: 70%;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#aboutus .image_img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#aboutus .search_icon{
+position: absolute;
+z-index: 10;
+bottom: 0;
+right:0;
+}
+#aboutus .search_icon img{
+  height: 80px;
+}
+
+.lightbox {
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+.lb-data .lb-number {
+    display: none !important;
+}
+#aboutus  .imagetop {
+    position: absolute;
+    z-index: 10;
+    top: -170px;
+    right: -100px;
+}
+
+#aboutus .mobail{
+  display: none;
+}
+
+@media(max-width:767px){
+#aboutus .desktop{
+  display: none;
+}
+#aboutus .mobail{
+  display: block;
+}
+#aboutus{
+  padding: 40px 0px;
+}
+
+#aboutus .container{
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+#aboutus  .imagetop {
+    position: absolute;
+    z-index: 10;
+    top: -120px;
+    right: 50px;
+    width: 100px;
+}
+#aboutus .content_box {
+    max-width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+
+#aboutus .image_box{
+  position: relative;
+}
+
+#aboutus .image_box_section{
+   display: flex;
+}
+
+#aboutus .image_box{
+  max-width: 33.33%;
+}
+
+#aboutus .search_icon img{
+  height: 40px;
+}
+#aboutus .icon_box {
+    max-width: 100%;
+}
+#aboutus .single_list {
+    flex-direction: column;
+    max-width: 33.33%;
+    width: 100%;
+}
+
+#aboutus .list_box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#aboutus .list_title {
+    padding: 5px;
+    max-width: 100%;
+    text-align: center;
+}
+#aboutus .title_2 {
+    margin: 30px 0px 20px 0px;
+    text-align: center;
+}
+
+}
+</style>
+
+<section id="aboutus">
+  <div class="container">
+    <img class="imagetop" src="images/imagetop.png" alt="imagetop">
+     <div class="desktop">
+    <div class="row">
+      <div class="col_6 flex">
+        <div class="content_box">
+          <h2 class="title">How does the ground screw work?</h2>
+          <p class="des">Buildings and other structures need to be firmly anchored in the ground to prevent longer term problems. There are many different ways to build a foundation – you can pour a concrete slab, dig down and pour or use precast concrete blocks – or, alternatively, use ground screws. Stop Digging’s ground screws are especially suitable for small projects such as building wooden decks, fences or pergolas, but also for larger structures including timber or steel frame houses, transportable units and cabins, shipping containers, agricultural sheds and greenhouses.</p>
+          <p class="des" style="margin: 0;">The ground screw works in the same way as a concrete block: it can withstand heavy loads and supports many different attachments such as joists, pipes, posts and beams. Our ground screws are available in several different models to fit all kinds of projects and terrain or soil types. We can place the screws precisely according to your instructions and then you can start building immediately! There is no time lost to wet concrete!</p>
+        </div>
+        <div class="icon_box">
+          <h3 class="title_2">SOME EXAMPLES OF GROUND SCREW CONSTRUCTION:</h3>
+          <div class="list_box">
+            <div class="single_list">
+              <img class="list_icon" src="images/deck.png" alt="deck">
+              <h4 class="list_title">Wooden deck</h4>
+            </div>
+            <div class="single_list">
+              <img class="list_icon" src="images/shed.png" alt="shed">
+              <h4 class="list_title">Garden shed</h4>
+            </div>
+            <div class="single_list">
+              <img class="list_icon" src="images/fence.png" alt="fence">
+              <h4 class="list_title">Fence</h4>
+            </div>
+            <div class="single_list">
+              <img class="list_icon" src="images/tent.png" alt="tent">
+              <h4 class="list_title">Pergola</h4>
+            </div>
+            <div class="single_list">
+              <img class="list_icon" src="images/garage.png" alt="garage">
+              <h4 class="list_title">Carport</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col_6" style="display: flex;">
+        <div class="image_list_box">
+             <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+             <img class="list_img" src="/images/AltanTumb.jpg" alt="">
+             <img class="list_img" src="/images/StaketTumb.jpg" alt="">
+        </div>
+        <div class="image">
+           <img class="image_img" src="images/sg-article-attefallshus.jpg" alt="">
+           <a href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img class="search_icon" src="images/afterFocus.jpg" alt=""></a>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Mobail Design -->
+
+
+  <div class="mobail">
+    <div class="content_box">
+      <h2 class="title">How does the ground screw work?</h2>
+      <p class="des">Buildings and other structures need to be firmly anchored in the ground to prevent longer term problems. There are many different ways to build a foundation – you can pour a concrete slab, dig down and pour or use precast concrete blocks – or, alternatively, use ground screws. Stop Digging’s ground screws are especially suitable for small projects such as building wooden decks, fences or pergolas, but also for larger structures including timber or steel frame houses, transportable units and cabins, shipping containers, agricultural sheds and greenhouses.</p>
+      <p class="des" style="margin: 0;">The ground screw works in the same way as a concrete block: it can withstand heavy loads and supports many different attachments such as joists, pipes, posts and beams. Our ground screws are available in several different models to fit all kinds of projects and terrain or soil types. We can place the screws precisely according to your instructions and then you can start building immediately! There is no time lost to wet concrete!</p>
+    </div>
+
+    <div class="image_box_section">
+        <div class="image_box">
+          <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+          <a class="search_icon" href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img  src="images/afterFocus.jpg" alt=""></a>
+        </div>
+        <div class="image_box">
+          <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+          <a class="search_icon" href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img  src="images/afterFocus.jpg" alt=""></a>
+        </div>
+        <div class="image_box">
+          <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+          <a class="search_icon" href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img  src="images/afterFocus.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="icon_box">
+      <h3 class="title_2">SOME EXAMPLES OF GROUND SCREW CONSTRUCTION:</h3>
+      <div class="list_box">
+        <div class="single_list">
+          <img class="list_icon" src="images/deck.png" alt="deck">
+          <h4 class="list_title">Wooden deck</h4>
+        </div>
+        <div class="single_list">
+          <img class="list_icon" src="images/shed.png" alt="shed">
+          <h4 class="list_title">Garden shed</h4>
+        </div>
+        <div class="single_list">
+          <img class="list_icon" src="images/fence.png" alt="fence">
+          <h4 class="list_title">Fence</h4>
+        </div>
+        <div class="single_list">
+          <img class="list_icon" src="images/tent.png" alt="tent">
+          <h4 class="list_title">Pergola</h4>
+        </div>
+        <div class="single_list">
+          <img class="list_icon" src="images/garage.png" alt="garage">
+          <h4 class="list_title">Carport</h4>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+</div>
+</section>
+<!---------------------------------- About Us Section End ----------------------------------------->
+
+
+<!---------------------------------- featured  Section Start  ----------------------------------------->
+<style>
+  .featured{
+   background-color: #fab214;
+   padding: 80px 0px;
+  }
+
+  .featured .container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+  }
+  .featured .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .featured .col_6{
+    max-width: 50%;
+    width: 100%;
+  }
+  .featured .contant_box .title span{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #ffffff;
+    box-shadow: 20px 0 #000,-20px 0 #000;
+    -webkit-box-shadow: 10px 0 0 #000,-10px 0 0 #000;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-color: #000;
+    font-family: "Cabin", sans-serif;
+  }
+  .featured .contant_box .title {
+    margin-bottom: 20px;
+    
+  }
+
+  .featured .contant_box{
+    max-width: 80%;
+  }
+  
+  .featured .contant_box .des_bold{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#000;
+    font-family: "Cabin", sans-serif;
+    margin: 0px 0px 15px;
+  }
+  .featured .contant_box .des{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:#000;
+    font-family: "Cabin", sans-serif;
+  }
+
+  .featured  .top_image{
+    position: absolute;
+  }
+
+  .featured  .top_image {
+    position: absolute;
+    top: -80px;
+    left: 45%;
+    transform: translate(-45%, -80px);
+    height: 700px;
+}
+
+.featured  .images_box{
+  display: flex;
+  gap: 30px;
+}
+
+.featured .single_image_box{
+  text-align: center;
+  max-width: 33.33%;
+  width: 100%;
+  position: relative;
+  border:solid  #000000;
+  border-width: 0px 0px 3px !important;
+
+}
+.featured .single_image_box::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 10px;
+  width: 3px;
+  background-color: #000000;
+}
+
+.featured .single_image_box img{
+  max-width: 90px;
+  width: 100%;
+  margin: 0px auto 20px;
+}
+.featured .single_image_box .title {
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 22px;
+    color: #000;
+    font-family: "Cabin", sans-serif;
+    margin: 0px 0px 20px;
+}
+
+.featured .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list_contant .title_2{
+  font-size: 22px;
+    font-weight: 900;
+    line-height: 28px;
+    color: #000;
+    font-family: "Cabin", sans-serif;
+    margin: 50px 0px 20px;
+}
+
+.list_contant .single_list .list_des{
+  font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    font-family: "Cabin", sans-serif;
+}
+
+.list_contant .list_item{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.list_contant .single_list{
+  max-width: 33.33%;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+@media(max-width:767px){
+
+  .featured .col_6{
+    max-width: 100%;
+  }
+  .featured{
+   padding: 200px 0px 40px;
+   overflow-x: hidden;
+  }
+
+  .featured .contant_box {
+    max-width: 100%;
+}
+
+.featured .container{
+   padding: 0px 15px;
+  }
+
+  .featured  .top_image {
+    position: absolute;
+    top: -100px;
+    right: -20px;
+    transform: translate(20px, -100px);
+    height: 568px;
+    left: auto;
+}
+.featured .contant_box .title span {
+    font-size: 30px;
+}
+
+.featured .contant{
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0px 10% 0px 0px;
+}
+.featured  .images_box {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 8% 0px 0px;
+}
+.featured .single_image_box {
+    max-width: 50%;
+}
+
+.featured .list_contant{
+  padding: 0px 8% 0px 0px;
+}
+
+.list_contant .single_list {
+    max-width: 50%;
+}
+.list_contant .title_2 {
+text-align: center;
+}
+
+}
+
+
+
+
+</style>
+<section class="featured">
+  <div class="container">
+          <img class="top_image" src="images/skruv_360_mar.gif" alt="skruv_360_mar">
+    <div class="row">
+      <div class="col_6">
+          <div class="contant_box">
+            <h2 class="title"> <span>SAVE TIME AND<br> WORK – <br>SUPPORT WITH <br>A GROUND SCREW</span></h2>
+            <div class="contant">
+            <p class="des_bold">IS THERE AN ANNOYING ROCK IN THE WAY OF YOUR HEAVY CONCRETE BLOCK? GROUND SCREWS AVOID THE NEED FOR TIRESOME DIGGING AND EXCAVATION! LET THE INSTALLERS DO THE WORK, AND THEN YOU CAN FREELY BUILD.</p>
+            <p class="des">Our installers anchor the ground screws for you. Installation is quick and easy; for example, the supports for a medium-sized wooden deck can be ready in just a few hours. The ground is pre-drilled for each screw to ensure the best possible bite, regardless of the type of soil or rock. Our equipment is light and portable and does not wreck your garden moving into place. The drilling does not tear up the grass, tarmac or other terrain, and after we are finished we leave behind the minimum of mess. Our helical ground screws should not be confused with basic ground anchors or lightweight soil screws from DIY stores that you can install yourself – we only sell finished building foundations using mounted screws with a 25-year guarantee.
+
+            </p>
+          </div>
+          </div>
+      </div>
+      <div class="col_6 flex">
+         <div class="images_box">
+            <div class="single_image_box">
+              <img src="images/garage.png" alt="">
+              <h3 class="title">SIMPLE AND FAST TO INSTALL</h3>
+            </div>
+            <div class="single_image_box">
+              <img src="images/garage.png" alt="">
+              <h3 class="title">SIMPLE AND FAST TO INSTALL</h3>
+            </div>
+            <div class="single_image_box">
+              <img src="images/garage.png" alt="">
+              <h3 class="title">A CONCRETE SUPPORT EMITS 50% MORE CARBON DIOXIDE ON AVERAGE THAN A GROUND SCREW</h3>
+            </div>
+         
+         </div>
+       <div class="list_contant">
+            <h3 class="title_2">FURTHER ADVANTAGES OF THE GROUND SCREW
+            </h3>
+             
+            <div class="list_item">
+              <div class="single_list">
+                <p class="list_des"><b>1.</b>We install ground screws throughout the country, all year round.</p>
+              </div>
+              <div class="single_list">
+                <p class="list_des"><b>2.</b>Durable and rustproof – made of strong galvanized steel.	</p>
+              </div>
+              <div class="single_list">
+                <p class="list_des"><b>3.</b>You measure as normal – all our screws use metric.</p>
+              </div>
+              <div class="single_list">
+                <p class="list_des"><b>4.</b>Does not destroy any surrounding surfaces during installation</p>
+              </div>
+              <div class="single_list">
+                <p class="list_des"><b>5.</b>Thoroughly tested for tension, pressure and load</p>
+              </div>
+              <div class="single_list">
+                <p class="list_des"><b>6.</b>ISO-certified and CE marked with a 25 year warranty</p>
+              </div>
+            </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---------------------------------- featured  Section End  ----------------------------------------->
+
+
+<!---------------------------------- Faq  Section Start  ----------------------------------------->
+<style>
+.faq_section .faq {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.faq_section{
+  padding: 60px 0px;
+}
+
+.faq_section .container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}
+.faq_section .row {
+    display: flex;
+    margin: -15px;
+    flex-wrap: wrap;
+}
+
+.faq_section .col_6{
+  max-width: 50%;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.faq_section .accordion {
+    color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: left;
+}
+.accordion .icon {
+       position: relative;
+       width: 20px;
+       height: 20px;
+     }
+   
+     .accordion .icon::after{
+       content:'';
+       position: absolute;
+       width: 100%;
+       height: 2px;
+       top: 50%;
+       left: 0;
+       background-color:#000000;
+     }
+
+     .accordion .icon::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        left: 0;
+        background-color: #000000;
+        transform: rotate(90deg);
+        transition: all 0.3s linear;
+    }
+    
+    .active .accordion .icon::before{
+        transform: rotate(0deg);        
+    }
+     
+     
+  
+     .pannel {
+       padding: 0px 10px 20px;
+       overflow: hidden;
+       display: none;
+       transition: all 0.3s linear;
+     }
+     .pannel p {
+       color: #000000;
+       font-family: "Cabin", sans-serif;
+       font-size: 18px;
+       line-height: 28px;
+     }
+
+    .faq_section .title_h3{
+      color: #fab214;
+       font-family: "Cabin", sans-serif;
+       font-size: 20px;
+       line-height: 28px;
+       line-height: normal;
+     }
+     .faq_section .title{
+      color: #000000;
+       font-family: "Cabin", sans-serif;
+       font-size: 30px;
+       line-height: 40px;
+     }
+
+     .faq_section .des {
+      color: #000000;
+       font-family: "Cabin", sans-serif;
+       font-size: 20px;
+       line-height: 26px;
+       margin: 0px 0px 20px;
+     }
+
+     .btn{
+      color: #000000;
+       font-family: "Cabin", sans-serif;
+       font-size: 20px;
+       line-height: 20px;
+       padding: 10px 35px;
+       border: 1px solid #000000;
+       background-color: transparent;
+       border-radius: 50px;
+       text-decoration: none;
+       box-sizing: border-box;
+       display: inline-block;
+       transition: all 0.5s;
+     }
+
+     .btn:hover{
+      color: #ffffff;
+       background-color: #000000;
+     }
+
+     @media(max-width:767px){
+      .faq_section {
+    padding: 30px 0px;
+}
+.faq_section .container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.faq_section .col_6 {
+    max-width: 100%;
+}
+     }
+     
+</style>
+
+<section>
+  <div class="faq_section">
+      <div class="container">
+          <div class="row">
+              <div class="col_6 ">
+                  <h3 class="title_h3">FREQUENTLY ASKED QUESTIONS</h3>
+                  <h2 class="title">How, where, when?<br> Here you can get the answers</h2>
+                  <p class="des">Every building project has its own unique requirements, which means our versatile range of ground screws are ideal for anchoring large and small structures in tricky terrain. If you do not find the answer to your question here, please do not hesitate to contact us!</p>
+
+
+                  <a href="#" class="btn">CONTACT US</a>
+
+
+              </div>
+              <div class="col_6">
+                  <div class="faq">
+                      <button class="accordion">
+                          How do I know if AG1 is right for me?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel" style="display: none;">
+                          <p class="des_type3">
+                              AG1 is great for anyone who wants to ensure their nutritional needs are met on a daily basis. It fills in the gaps where your diet falls short and provides the support you need to combat life’s daily stressors. Whether you are looking to overcome nutrient deficiencies or are training hard or traveling frequently, AG1 provides nutritional support when you need it most. AG1 is suitable for adults of all ages and lifestyles, including athletes and those following specialty diets. Children, pregnant or nursing women should seek professional medical advice before taking this or any other dietary supplement.
+                          </p>
+                      </div>
+                  </div>
+
+
+                  <div class="faq">
+                      <button class="accordion">
+                          When should I expect to see benefits?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel" style="display: none;">
+                          <p class="des_type3">
+                              Many different factors can influence how AG1 affects you. These include how you take it, the consistency of your routine, and your health prior to starting AG1. Your diet and lifestyle all impact how soon you’ll see AG1's benefits and how noticeable they’ll be. Some customers notice improvements in as little as a few days, and for others, it can take as long as a few weeks. We're all different, so our bodies will react uniquely to AG1.
+                          </p>
+                      </div>
+                  </div>
+
+
+                  <div class="faq">
+                      <button class="accordion">
+                          How does it work?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel" style="display: none;">
+                          <p class="des_type3">
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                              saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                              ullam, iure eligendi harum eaque hic corporis debitis porro
+                              consectetur voluptate rem officiis architecto.
+                          </p>
+                      </div>
+                  </div>
+
+
+                  <div class="faq">
+                      <button class="accordion">
+                          What kind of benefits can I expect from taking AG1?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel" style="display: none;">
+                          <p class="des_type3">
+                              AG1 provides support in five crucial areas of health: energy, immunity, gut health, hormonal and neural support, and healthy aging. At Athletic Greens, we understand that everyone has a unique health history and reacts differently to various nutrients. AG1 is the original Foundational Nutrition drink and was designed as a comprehensive formula to provide daily support where the body needs it most. Many members report feeling sustained energy, having fewer cravings, and more balanced gut health over the course of the first month or so. Other common benefits include healthy skin, promoting hair and nail growth, improved concentration, and support recovery after physical activity. For those with a nutritional deficiency or digestive issues, benefits may be perceived more quickly.
+                          </p>
+                      </div>
+                  </div>
+
+
+
+                  <div class="faq">
+                      <button class="accordion">
+                          How does AG1 taste?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel">
+                          <p class="des_type3">
+                              AG1’s fans praise its pleasant, healthy taste, and we’ve spent years perfecting the flavor. AG1’s flavor is naturally essenced with vanilla and pineapple, and picks up some of its taste from the fruits and vegetables in the blend including papaya, broccoli, cherry, carrot, and the subtle sweetness of stevia—all without artificial flavoring, sweeteners, and additives. No compromises.
+                          </p>
+                      </div>
+                  </div>
+
+
+                  <div class="faq">
+                      <button class="accordion">
+                          What makes AG1 different from other nutritional products?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel">
+                          <p class="des_type3">
+                              AG1 is the original Foundational Nutrition drink. The science, quality and synergy behind the nutrition supplements in AG1 gives us the confidence to say AG1 is the most comprehensive daily Foundational Nutrition health habit you will come across, period. AG1 provides nutritional support across five critical areas of health: energy, immunity, gut health, hormonal support and longevity. Each of the 75 ingredients in AG1 were hand-selected and intentionally picked to provide the most bioavailable nutrients in a manner where each ingredient works in conjunction with the whole formula, while also optimizing its own function. Beyond the intention and research behind the formulation, AG1 is manufactured in a TGA-registered facility in New Zealand, with strict third-party analytical and microbiological testing at the highest quality standards. AG1 is certified for quality and safety by NSF International and is NSF Certified for Sport® meaning it does not contain any of the 270+ substances banned by professional sports organizations.
+                          </p>
+                      </div>
+                  </div>
+
+                  <div class="faq">
+                      <button class="accordion">
+                          What products does AG1 replace?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel">
+                          <p class="des_type3">
+                              One daily serving of AG1 eliminates the need for other supplements such as a multivitamin, multimineral, antioxidants, superfood blends, phytonutrients, greens blends, adaptogens, digestive enzymes, prebiotics, probiotics and synbiotics. You can trust AG1 to be effective with no compromises – ever – and the highest quality and greatest nutritional content.
+                          </p>
+                      </div>
+                  </div>
+                  
+                  <div class="faq">
+                      <button class="accordion">
+                          What measures do you take to ensure the quality of AG1?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel">
+                          <p class="des_type3">
+                              Athletic Greens takes a no-compromises approach to formulation and product quality. AG1 is manufactured in a TGA-registered, Good Manufacturing Practice (GMP) compliant facility, as well as recognized by NSF International. We maintain Full Batch Manufacturing Records, which means that all finished products are 100% traceable for analytical and microbiological testing. AG1 is registered as a Certified for Sport® product under NSF International, which keeps some of the strictest industry regulations available today. We maintain rigorous independent audits of our manufacturing facility, as well as toxicological reviews that verify product formulation, and label claims and prevent unsafe levels of contaminants.
+
+
+                          </p>
+                      </div>
+                  </div>
+
+                  
+                  <div class="faq">
+                      <button class="accordion">
+                          How do I take AG1?
+                          <div class="icon"></div>
+                      </button>
+                      <div class="pannel">
+                          <p class="des_type3">
+                              AG1 tastes great just with cold water. Some like theirs with a squeeze of lemon or blending it into a smoothie, others add it to oat milk. There are a handful of ways to integrate AG1 into your day, but water on its own is really perfect.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<script>
+
+var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                this.parentElement.classList.toggle("active");
+
+                var pannel = this.nextElementSibling;
+
+                if (pannel.style.display === "block") {
+                    pannel.style.display = "none";
+                } else {
+                    pannel.style.display = "block";
+                }
+            });
+        }
+</script>
+
+<!---------------------------------- Faq  Section End  ----------------------------------------->
+
+
+<!---------------------------------- image gallery  Section Start  ----------------------------------------->
+<style>
+.gallery_section{
+  padding: 80px 0px;
+}
+
+.gallery_section .container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.gallery_section .row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.gallery_section .col_6{
+  max-width: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.gallery_section .image_box{
+  position: relative;
+}
+.gallery_section .search_icon img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+}
+.gallery_section .box_2 .search_icon img{
+  bottom: 10px;
+  right: 10px;
+}
+.gallery_section .list_img{
+  width: 100%;
+  aspect-ratio: 8/5;
+  object-fit: cover;
+}
+.gallery_section  .box_2{
+  display: flex;
+  margin: -10px;
+}
+.gallery_section  .box_2 .image_box{
+  max-width: 50%;
+  width: 100%;
+  padding: 10px;
+}
+.video_box{
+  position: relative;
+}
+.play_button{
+  display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 10;
+}
+.play_button .play{
+  height: 110px;
+  width: 110px;
+  box-shadow: 0 20px 45px rgba(0,0,0,.25);
+  background-color: #d3d1cf;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.play_button svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 12;
+}
+.gallery_section .content{
+  text-align: center;
+}
+.gallery_section .title_h3 {
+    color: #fab214;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+.gallery_section  .title {
+    color: #000000;
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.gallery_section .des {
+    color: #000000;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px auto 20px;
+    max-width: 700px;
+   
+}
+
+@media(max-width:767px){
+  .gallery_section{
+    padding: 40px 0px;
+  }
+  .gallery_section .container{
+  max-width: 100%;
+ padding: 0px 15px;
+ box-sizing: border-box;
+}
+.gallery_section .col_6{
+  max-width: 100%;
+}
+
+}
+</style>
+
+
+<Section class="gallery_section">
+
+<div class="container">
+  <div class="content">
+    <h3 class="title_h3">FREQUENTLY ASKED QUESTIONS</h3>
+    <h2 class="title">WE HAVE THE GROUND SCREW TO UNDERPIN YOUR VISION!</h2>
+    <p class="des">A smart deck to relax on, or a stylish pergola to sit under, or a smart greenhouse to potter about in, Stop Digging helps you turn your dream into a reality.</p>
+  </div>
+  <div class="row">
+    <div class="col_6">
+      <div class="image_box">
+        <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+        <a class="search_icon" href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img  src="images/afterFocus.jpg" alt=""></a>
+      </div>
+      <div class="box_2" style="padding-top: 10px;">
+        <div class="image_box">
+          <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+          <a class="search_icon" href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img  src="images/afterFocus.jpg" alt=""></a>
+        </div>
+        <div class="image_box">
+          <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+          <a class="search_icon" href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img  src="images/afterFocus.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="col_6">
+      <div class="box_2" style="padding-bottom: 10px;">
+        <div class="image_box">
+          <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+          <a class="search_icon" href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img  src="images/afterFocus.jpg" alt=""></a>
+        </div>
+        <div class="image_box">
+          <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+          <a class="search_icon" href="images/sg-article-attefallshus.jpg" data-lightbox="roadtrip"><img  src="images/afterFocus.jpg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="video_box">
+        <img class="list_img" src="/images/TradackTumb.jpg" alt="">
+        <div class="play_button">
+          <div  onclick="openModal()"  class="play">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512.055 512.055" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M500.235,236.946L30.901,2.28C16.717-4.813,0.028,5.502,0.028,21.361v469.333c0,15.859,16.689,26.173,30.874,19.081    l469.333-234.667C515.958,267.247,515.958,244.808,500.235,236.946z M42.694,456.176V55.879l400.297,200.149L42.694,456.176z"/>
+                </g>
+              </g>
+              </svg>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</Section>
+
+
+<style>
+  #video_section {
+    position: fixed;
+    max-width: 100%;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
+
+#video_section  .overlay{
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.6;
+  cursor: pointer;
+  z-index: 100;
+  position: relative;
+}
+
+#video_section video{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 12;
+    width: 60%;
+    z-index: 100;
+}
+
+@media(max-width:767px){
+  #video_section video{
+    width: 90%;
+}
+}
+
+</style>
+
+<div id="video_section" class="videomodal">
+  <div onclick="closeModal()" class="overlay"></div>
+  <video controls="" loop="" playsinline="" autoplay=""><source src="" type="video/mp4"></video>
+</div>
+</div>
+<script>
+
+
+function openModal() {
+  document.getElementById("video_section").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("video_section").style.display = "none";
+}
+
+</script>
+
+<!---------------------------------- image gallery  Section End  ----------------------------------------->
+
+
+<!---------------------------------- GET IN TOUCH  Section Start  ----------------------------------------->
+
+
+
+</body>
+
+</script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+</html>
+
+
+
